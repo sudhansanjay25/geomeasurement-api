@@ -1,0 +1,25 @@
+[project]
+name = "geomeasurement-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.142.4",
+    "geopandas>=1.2.0",
+    "pyogrio>=0.13.0",
+    "pyproj>=3.7.2",
+    "pyroj>=1.3.1",
+    "python-dotenv>=1.2.4",
+    "python-multipart>=0.0.32",
+    "shapely>=2.2.0",
+    "sqlalchemy>=2.1.4",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+]
